@@ -22,7 +22,7 @@ function App() {
       </Route>,
     ),
     {
-      basename: "/awesome/",
+      basename: "/pesty/",
     },
   );
 

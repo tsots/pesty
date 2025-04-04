@@ -21,9 +21,9 @@ function App() {
         <Route path="jobs/:title" element={<Job data={data} />} />
       </Route>,
     ),
-    // {
-    //   basename: "/pesty/",
-    // },
+    {
+      basename: "/pesty",
+    },
   );
 
   console.log(data);
